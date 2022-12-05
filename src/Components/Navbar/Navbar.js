@@ -3,7 +3,7 @@ import './Mobile.css'
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
-
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -12,23 +12,29 @@ const Navbar = () => {
             <nav>
                 <div className="navbar">
                     <div>
-                        <a href="/"><h1>Food Nest</h1></a>
+                        <Link to="/"><h1>Food Nest</h1></Link>
                     </div>
+
                     <div>
                         
                     </div>
+
                     <div className="login-signup-btn">
-                        <a href="/signup" className="login-btn">
-                            <button>Log in</button>
-                        </a>
-                        <a href="/login" className="sign-up-btn">
+                       
+                        <Link to='/login' className="login-btn">
+                            <button >Log in</button>
+                        </Link>
+
+                        <Link to='/signup' className="sign-up-btn">
                             <button>Sign Up</button>
-                        </a>
-                        <a href="/cart">
-                           <button className="cart-btn"><FontAwesomeIcon icon={faBagShopping}></FontAwesomeIcon></button>
-                           </a>
+                        </Link>
+                        <Link to='/cart' className="cart-btn">
+                            <button ><FontAwesomeIcon icon={faBagShopping}></FontAwesomeIcon>
+                            </button>
+                        </Link>
 
                     </div>
+                    
                 
                 </div>
             </nav>

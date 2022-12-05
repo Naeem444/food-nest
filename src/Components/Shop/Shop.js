@@ -7,7 +7,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 const Shop = () => {
     return (
         <>
-        <div className='landing-page-container'>
+        <div className='landing-page-container '>
             <div className='initial-search-section'>
                 <h1>Order Your Favourite Foods</h1>
                 <div className='search-field'>
@@ -16,7 +16,7 @@ const Shop = () => {
                 </div>
             </div>
 
-           <div className='landing-page-img-container'>
+           <div className='landing-page-img-container'> 
                 
             </div>
          
