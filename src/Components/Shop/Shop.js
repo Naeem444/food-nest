@@ -1,5 +1,8 @@
 import React from 'react';
 import './Shop.css'
+import './Mobile.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const Shop = () => {
     return (

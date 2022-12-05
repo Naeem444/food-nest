@@ -1,0 +1,61 @@
+@media (max-width: 580px) {
+    .landing-page-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 470px;
+    }
+
+    .landing-page-img-container {
+
+   
+        position:absolute;
+        top:350px;
+       
+        
+        width: 100%;
+        height: 300px;
+        background-image: url('/public/images/landing-page-food.jpg');
+    
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
+        background-position: center ;
+        clip-path: none;
+   
+    
+    }
+    .initial-search-section{
+        width: 90%;
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .initial-search-section h1{
+        font-size: 2.2em;
+    
+    }
+    .search-input{
+        border-radius: 22px 0 0 22px;
+        width: 190px;;
+        border: 1px solid  #7F416D;
+        outline: none;
+        padding: 15px 30px;
+    }
+    
+    .search-btn{
+        border-radius: 0 22px 22px 0;
+        padding: 15px 20px;
+        border: 1px solid  #7F416D;
+        background-color: #7F416D;
+        color: #ffff;
+    
+    
+    }
+
+}
