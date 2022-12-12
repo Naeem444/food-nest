@@ -1,0 +1,21 @@
+.searched-food-container-title h2{
+    margin-left: 50px;
+}
+
+.searched-food-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.searched-food-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 1000px;
+    align-items: center;
+    margin: 30px 0;
+
+}

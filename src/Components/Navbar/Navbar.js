@@ -3,10 +3,11 @@ import './Mobile.css'
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
+
     return (
         <>
             <nav>
@@ -28,10 +29,16 @@ const Navbar = () => {
                         <Link to='/signup' className="sign-up-btn">
                             <button>Sign Up</button>
                         </Link>
-                        <Link to='/cart' className="cart-btn">
+                        
+                        {/* active route */}
+                        <NavLink
+                        to='/cart'
+                        className={({ isActive }) =>isActive ? "cart-btn-active" : "cart-btn"}
+                        >
                             <button ><FontAwesomeIcon icon={faBagShopping}></FontAwesomeIcon>
                             </button>
-                        </Link>
+
+                        </NavLink>
 
                     </div>
                     
