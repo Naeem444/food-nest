@@ -70,19 +70,4 @@
     background-color: #653457;
 }
 
-.initial-page-foods{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.popular-food-card-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    width: 1000px;
-    align-items: center;
-    margin: 30px 0;
-
-}
