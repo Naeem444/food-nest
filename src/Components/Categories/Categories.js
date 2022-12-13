@@ -6,6 +6,7 @@ import './Categories.css'
 const Categories = () => {
 
     const [categories, setCategories] = useState([]);
+    // console.log(categories[0].strCategory)
 
     const url = 'https://www.themealdb.com/api/json/v1/1/categories.php';
 
@@ -25,13 +26,18 @@ const Categories = () => {
     return (
         <>
         <div className='catagory-header'>
-            <h1>Explore Our Food Categories ({categories.length})</h1>
+            <h1>Explore Our Food Categories</h1>
         </div>
 
         
         <div className='categories-container'>
+
            <div className='category-btn-section'>
+            
+
+
            {
+                
                 categories.map(category => category.strCategory !== 'Pork'?
                  <NavLink 
                  to={`/foodCategory/${category.strCategory}`} 
@@ -56,6 +62,7 @@ const Categories = () => {
         <div className='categorized-food-container'>
             <div>
                 {/* Here all categorized foods will be shown */}
+               
                 <Outlet></Outlet>
 
             </div>

@@ -5,6 +5,7 @@ import CategorizedFoods from './Components/CategorizedFoods/CategorizedFoods';
 import Error from './Components/Error/Error';
 import FoodDetails from './Components/FoodDetails/FoodDetails';
 import LandingPage from './Components/LandingPage/LandingPage';
+import LandingPageFoods from './Components/LandingPageFoods/LandingPageFoods';
 import Navbar from './Components/Navbar/Navbar'
 import SearchedFoods from './Components/SearchedFoods/SearchedFoods';
 
@@ -19,7 +20,9 @@ function App() {
  
      <Routes>
         <Route path='/' element={<LandingPage></LandingPage>}>
+           <Route path='/' element={<LandingPageFoods></LandingPageFoods>}></Route>
            <Route path='/foodCategory/:category' element={<CategorizedFoods></CategorizedFoods>}></Route>
+           
         </Route>    
 
         <Route path='/food/:foodId' element={<FoodDetails></FoodDetails>}></Route>

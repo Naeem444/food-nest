@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ShowCategorizedFood = (props) => {
-    const {idMeal, strMealThumb, strMeal} = props.meal;
+    const { strMealThumb, strMeal} = props.meal;
     return (
         <div>
             <div className='food-card'>
