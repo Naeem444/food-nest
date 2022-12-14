@@ -1,0 +1,11 @@
+@media (max-width: 480px){
+    .category-food-imm-parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        /* width: 1000px; */
+        width: 80%;
+        align-items: center;
+        margin: 20px 20px;
+    }
+}

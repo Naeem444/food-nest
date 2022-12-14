@@ -1,6 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-import './ShowFoods.css'
+import './ShowFoods.css';
+import './ShowFoodsMobile.css';
+
+
 const ShowFoods = (props) => {
     const {strMeal, strMealThumb, idMeal} = props.food;
 

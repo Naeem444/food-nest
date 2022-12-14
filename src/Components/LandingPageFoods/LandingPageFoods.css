@@ -1,4 +1,6 @@
 
+
+
 .food-suggestion-title h3::after{
     background-color: #000;
     content: "";
@@ -9,3 +11,19 @@
     width: 80%;
 }
 
+@media(max-width: 480px){
+    .food-suggestion-title h3::after{
+        background-color: #000;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+       
+    }
+    .food-suggestion-title{
+        margin: 0 10px;
+    }
+    
+}

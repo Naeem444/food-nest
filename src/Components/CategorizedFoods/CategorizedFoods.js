@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import ShowCategorizedFood from '../ShowCategorizedFood/ShowCategorizedFood';
 import './CategorizedFoods.css'
-
+import './CategorizedFoodsMobile.css'
 
 const CategorizedFoods = () => {
 
     const {category} = useParams();
-    console.log(category)
+ 
 
     
 
@@ -26,7 +26,7 @@ const CategorizedFoods = () => {
 
     useEffect(()=>{
         fetchFood();
-    }, [foods])
+    }, [])
 
 
 

@@ -1,4 +1,4 @@
-@media (max-width: 580px) {
+@media (max-width: 480px) {
     nav{
         display: flex;
         justify-content: center;
@@ -70,7 +70,7 @@
     .login-btn button{
         outline: none;
         border: 1px solid  #7F416D;
-        padding: 10px 20px;
+        padding: 10px 15px;
         border-radius: 22px;
         background-color:#f2f2f2 ;
         color:#000000;
@@ -78,17 +78,27 @@
         font-size: 12px;
         font-weight: 550;
         margin-left: 10px;
-        display: none;
+        /* display: none; */
     
     
     }
     
-    .cart-btn{
+    .cart-btn button{
+        color: #808080;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        font-size: 1.5em;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .cart-btn-active button{
         color: #000000;
         text-decoration: none;
         outline: none;
         border: none;
-        font-size: 1.3em;
+        font-size: 1.5em;
         margin-left: 10px;
         cursor: pointer;
     }

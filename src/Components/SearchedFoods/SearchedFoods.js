@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import ShowSearchedFoods from '../ShowSearchedFoods/ShowSearchedFoods';
 import './SearchedFoods.css'
+import './SearchedFoodsMobile.css'
 
 
 const SearchedFoods = () => {

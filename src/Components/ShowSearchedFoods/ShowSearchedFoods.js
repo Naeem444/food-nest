@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../ShowFoods/ShowFoods.css'
+import '../ShowFoods/ShowFoods.css';
+import '../ShowFoods/ShowFoodsMobile.css';
 
 const ShowSearchedFoods = (props) => {
 
