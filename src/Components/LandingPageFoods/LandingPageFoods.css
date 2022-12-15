@@ -19,11 +19,15 @@
         height: 1px;
         position: relative;
         vertical-align: middle;
-        width: 100%;
+        width: 90%;
+        display: none;
        
     }
-    .food-suggestion-title{
-        margin: 0 10px;
+   
+    .food-suggestion-title h3{
+        text-align: center;
+
+
     }
     
 }

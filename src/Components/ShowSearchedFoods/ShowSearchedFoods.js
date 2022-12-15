@@ -5,8 +5,10 @@ import '../ShowFoods/ShowFoodsMobile.css';
 
 const ShowSearchedFoods = (props) => {
 
-
     const {strMealThumb, strMeal, idMeal} = props.meal;
+
+    const mealName = strMeal.length < 40 ?  strMeal : strMeal.slice(0,41).concat("...") ;
+    
     return (
         <div>
             <div className='food-card'>
@@ -15,7 +17,7 @@ const ShowSearchedFoods = (props) => {
 
                     </div>
                     <div className='food-name'>
-                        <h4>{strMeal}</h4>
+                        <h4>{mealName}</h4>
 
                     </div>
 

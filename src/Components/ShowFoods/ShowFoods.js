@@ -1,3 +1,5 @@
+// Haven't use this component but used the stylesheet of this component to a multiple places
+
 import React from 'react';
 import { useNavigate } from 'react-router';
 import './ShowFoods.css';

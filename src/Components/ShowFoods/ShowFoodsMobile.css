@@ -1,7 +1,7 @@
 @media (max-width:480px){
     .food-card{
         border: 1px solid #f2f2f2;
-        width: 180px;
+        width: 170px;
         border-radius: 15px;
         position: relative;
         z-index: 1;
@@ -14,15 +14,16 @@
         justify-content: center;
     }
     .food-img img{
-        width: 170px;
+        width: 160px;
         margin: 5px 5px;
         border-radius: 15px;
         
     }
     
     .food-name{
-        height: 80px;
+        height: 70px;
         margin: 0px 10px;
+        
     }
 
     .food-name h4{
@@ -37,8 +38,8 @@
         height: 35px;
         border-radius: 50%;
         z-index: 2;
-        top: -268px;
-        right: -168px;
+        top: -257px;
+        right: -157px;
         position: absolute;
         background-color: #7F416D;
         color: #ffff;

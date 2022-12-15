@@ -25,7 +25,7 @@ const SearchedFoods = () => {
     }
     useEffect(()=>{
         fetchSearchedFood();
-    },[searchedFoods]);
+    },[]);
 
     
     return (

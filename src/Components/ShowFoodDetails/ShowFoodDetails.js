@@ -6,7 +6,7 @@ const ShowFoodDetails = (props) => {
         <div>
               <div className='food-card'>
                     <div className='food-img'>
-                        <img src={strMealThumb} alt='Seafood'></img>
+                        <img src={strMealThumb} alt='food'></img>
 
                     </div>
                     <div className='food-name'>

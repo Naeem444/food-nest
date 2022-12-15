@@ -11,7 +11,7 @@ const ShowCategorizedFood = (props) => {
         navigate(`/food/${idMeal}`);
     }
 
-
+    const mealName = strMeal.length < 40 ?  strMeal : strMeal.slice(0,41).concat("...") ;
 
 
     return (
@@ -22,7 +22,7 @@ const ShowCategorizedFood = (props) => {
 
                     </div>
                     <div className='food-name'>
-                        <h4>{strMeal}</h4>
+                        <h4>{mealName}</h4>
 
                     </div>
                     <div className='add-food-btn'>

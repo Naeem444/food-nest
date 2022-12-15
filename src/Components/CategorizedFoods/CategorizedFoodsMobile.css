@@ -3,9 +3,8 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
-        /* width: 1000px; */
-        width: 80%;
+        width: 100%;
         align-items: center;
-        margin: 20px 20px;
+        margin: 5px 5px;
     }
 }

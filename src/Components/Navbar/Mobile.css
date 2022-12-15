@@ -1,7 +1,11 @@
 @media (max-width: 480px) {
     nav{
+        top: 0;
+        left: 0;
+        right: 0;
         display: flex;
         justify-content: center;
+        width: 100%;
         
     }
     nav a{
@@ -11,8 +15,9 @@
     
     nav h1{
         font-family: 'Cinzel Decorative', cursive;
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: #000000;
+
     }
     
     
@@ -22,17 +27,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0px 0;
+        margin: 0px 0px;
         width: 100%;
         top: 0px;
-        left: 0;
+        left: 0px;
+        right: 0px;
         background: #f2f2f2;
         
     
         height: 60px;
         color: #000000;
 
-        padding: 0px 10px 0 10px;
+        padding: 0px 5px 0 5px;
     }
 
     .login-signup-btn{
@@ -51,7 +57,7 @@
     .sign-up-btn button{
         outline: none;
         border: 1px solid  #7F416D;
-        padding: 10px 15px;
+        padding: 7px 10px;
         border-radius: 22px;
         background-color: #7F416D;
         color:#ffff;
@@ -70,7 +76,7 @@
     .login-btn button{
         outline: none;
         border: 1px solid  #7F416D;
-        padding: 10px 15px;
+        padding: 7px 10px;
         border-radius: 22px;
         background-color:#f2f2f2 ;
         color:#000000;

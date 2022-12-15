@@ -9,9 +9,6 @@ const CategorizedFoods = () => {
 
     const {category} = useParams();
  
-
-    
-
     const [foods, setFoods] = useState([]);
 
     const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`;
@@ -26,9 +23,7 @@ const CategorizedFoods = () => {
 
     useEffect(()=>{
         fetchFood();
-    }, [])
-
-
+    }, [foods])
 
 
     return (
@@ -43,9 +38,6 @@ const CategorizedFoods = () => {
             }
                  
             </div>
-  
-
-
             
         </div>
     );

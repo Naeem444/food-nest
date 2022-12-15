@@ -1,13 +1,12 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Link, NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import './Categories.css'
 import './CategoryMobile.css'
 
 const Categories = () => {
 
     const [categories, setCategories] = useState([]);
-    // console.log(categories[0].strCategory)
 
     const url = 'https://www.themealdb.com/api/json/v1/1/categories.php';
 
