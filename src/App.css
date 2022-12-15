@@ -1,7 +1,7 @@
 
 @media (min-width: 1400px) {
     .landing-page{
-        width: 1400px;
+        /* width: 1400px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
